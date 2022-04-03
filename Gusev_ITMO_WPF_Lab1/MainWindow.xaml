@@ -1,0 +1,35 @@
+﻿<Window x:Name="Calculator" x:Class="Gusev_ITMO_WPF_Lab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Калькулятор" Height="500" Width="380
+        " Foreground="#FFCB3737" Background="#FF594B6A" BorderBrush="#FF0B0C0E" Topmost="True" OpacityMask="White">
+    <Grid Margin="0,0,0,0">
+        <Grid HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="360" Margin="5,5,5,5">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="LightGray" Offset="1"/>
+                    <GradientStop Color="#FF2D46E4"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="10,100,0,0" FontSize="30"/>
+            <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="95,100,0,0" FontSize="30"/>
+            <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="180,100,0,0" FontSize="30"/>
+            <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="10,185,0,0" FontSize="30"/>
+            <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="95,185,0,0" FontSize="30"/>
+            <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="180,185,0,0" FontSize="30"/>
+            <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="10,270,0,0" FontSize="30"/>
+            <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="95,270,0,0" FontSize="30"/>
+            <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="180,270,0,0" FontSize="30"/>
+            <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="10,355,0,0" FontSize="30"/>
+            <Button Content="," HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="95,355,0,0" FontSize="30"/>
+            <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="180,355,0,0" FontSize="30"/>
+            <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="270,100,0,0" FontSize="30"/>
+            <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="270,185,0,0" FontSize="30"/>
+            <Button Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="270,270,0,0" FontSize="30"/>
+            <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="270,355,0,0" FontSize="30"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Height="80" Background="White"/>
+        </Grid>
+
+
+    </Grid>
+</Window>
